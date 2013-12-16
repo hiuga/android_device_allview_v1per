@@ -1,5 +1,3 @@
-
-
 #include <linux/input.h>
 
 #include "recovery_ui.h"
