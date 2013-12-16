@@ -9,3 +9,7 @@
 /sd-ext		auto		/dev/block/mmcblk1p2
 /system		ext4		/dev/block/mmcblk0p5
 /uboot		emmc		/dev/uboot
+
+
+
+xD
