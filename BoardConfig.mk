@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/ALLViEW/V1PER/BoardConfigVendor.mk
+-include vendor/allview/v1per/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
@@ -11,7 +11,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
-TARGET_BOOTLOADER_BOARD_NAME := V1PER
+TARGET_BOOTLOADER_BOARD_NAME := V1_ViPER
 
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x10000000
@@ -24,15 +24,15 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x2BC00000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x40000000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/ALLViEW/V1PER/kernel
+TARGET_PREBUILT_KERNEL := device/allview/v1per/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Recovery Related Customization
-RECOVERY_NAME := ALLViEW V1_ViPER CWM Recovery
-TARGET_RECOVERY_FSTAB := device/ALLViEW/V1PER/recovery/recovery.fstab
-TARGET_RECOVERY_INITRC := device/ALLViEW/V1PER/recovery/recovery.rc
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/ALLViEW/V1PER/recovery/recovery_keys.c
+RECOVERY_NAME := ALLViEW V1_ViPER CWM Based Recovery
+TARGET_RECOVERY_FSTAB := device/allwiev/v1per/recovery/recovery.fstab
+TARGET_RECOVERY_INITRC := device/allview/v1per/recovery/recovery.rc
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allview/v1per/recovery/recovery_keys.c
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 CWM_EMMC_BOOT_DEVICE_NAME := /dev/bootimg
 CWM_EMMC_BOOT_DEVICE_SIZE := 0x00600000
