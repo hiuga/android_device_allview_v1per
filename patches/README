@@ -1,0 +1,5 @@
+This is patch directory
+
+cd WORKING_DIR
+sh device/allview/v1per/patches/install.sh
+sh device/allview/v1per/patches/uninstall.sh
