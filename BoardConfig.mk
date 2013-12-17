@@ -4,7 +4,7 @@ USE_CAMERA_STUB := true
 -include vendor/allview/v1per/BoardConfigVendor.mk
 
 TARGET_NO_BOOLOADER :=true
-TARGET_BOOTLOADER_BOARD_NAME := V1_ViPER
+TARGET_BOOTLOADER_BOARD_NAME := V1PER
 
 # Platform
 TARGET_BOARD_PLATFORM := mtk6589
@@ -24,7 +24,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
 #TARGET_CPU_SMP := true
-TARGET_BOOTLOADER_BOARD_NAME := V1_ViPER
+TARGET_BOOTLOADER_BOARD_NAME := V1PER
 
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x10000000
@@ -42,7 +42,7 @@ TARGET_PREBUILT_KERNEL := device/allview/v1per/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Recovery Related Customization
-RECOVERY_NAME := ALLViEW V1_ViPER CWM Based Recovery
+RECOVERY_NAME := ALLViEW V1_ViPER ( V1PER ) CWM Based Recovery
 TARGET_RECOVERY_FSTAB := device/allwiev/v1per/recovery/recovery.fstab
 TARGET_RECOVERY_INITRC := device/allview/v1per/recovery/recovery.rc
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allview/v1per/recovery/recovery_keys.c
